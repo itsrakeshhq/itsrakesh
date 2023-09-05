@@ -13,7 +13,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
     "eslint": "^8.48.0",
-    "@itsrakesh/eslint-config": "workspace:0.0.0",
+    "@itsrakesh/eslint-config": "workspace:*",
     "prettier": "^3.0.3",
     "turbo": "latest"
   },

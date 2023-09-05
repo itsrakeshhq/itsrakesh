@@ -12,8 +12,8 @@ importers:
         specifier: ^2.26.2
         version: 2.26.2
       '@itsrakesh/eslint-config':
-        specifier: workspace:0.0.0
-        version: link:packages/eslint-config-itsrakesh
+        specifier: workspace:*
+        version: link:packages/eslint-config
       eslint:
         specifier: ^8.48.0
         version: 8.48.0
@@ -24,9 +24,7 @@ importers:
         specifier: latest
         version: 1.10.13
 
-  apps/docs: {}
-
-  packages/eslint-config-itsrakesh:
+  packages/eslint-config:
     dependencies:
       eslint-config-next:
         specifier: latest
@@ -41,7 +39,11 @@ importers:
         specifier: 7.33.2
         version: 7.33.2(eslint@8.48.0)
 
-  packages/tsconfig: {}
+  packages/tsconfig:
+    dependencies:
+      typescript:
+        specifier: 5.x
+        version: 5.2.2
 
   packages/ui:
     dependencies:
@@ -66,7 +68,7 @@ importers:
     devDependencies:
       '@itsrakesh/eslint-config':
         specifier: workspace:*
-        version: link:../eslint-config-itsrakesh
+        version: link:../eslint-config
       '@itsrakesh/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
@@ -96,7 +98,7 @@ importers:
     devDependencies:
       '@itsrakesh/eslint-config':
         specifier: workspace:*
-        version: link:../eslint-config-itsrakesh
+        version: link:../eslint-config
       '@itsrakesh/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
