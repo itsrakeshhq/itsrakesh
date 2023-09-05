@@ -39,11 +39,7 @@ importers:
         specifier: 7.33.2
         version: 7.33.2(eslint@8.48.0)
 
-  packages/tsconfig:
-    dependencies:
-      typescript:
-        specifier: 5.x
-        version: 5.2.2
+  packages/tsconfig: {}
 
   packages/ui:
     dependencies:
