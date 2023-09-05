@@ -1,5 +1,11 @@
 # @itsrakesh/utils
 
+## 1.1.0
+
+### Minor Changes
+
+- 6026bea: Build fix
+
 ## 1.0.0
 
 ### Major Changes
