@@ -1,17 +1,8 @@
 {
   "name": "@itsrakesh/tsconfig",
   "version": "1.0.0",
-  "private": true,
   "license": "MIT",
   "description": "A shared tsconfig.json for itsrakesh",
-  "files": [
-    "base.json",
-    "react-library.json",
-    "node16.json"
-  ],
-  "peerDependencies": {
-    "typescript": "5.x"
-  },
   "publishConfig": {
     "access": "public"
   }
