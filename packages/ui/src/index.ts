@@ -1,3 +1,3 @@
 import "./globals.css";
 
-export * from "./Button";
+export * from "./components";

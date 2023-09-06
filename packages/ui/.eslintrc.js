@@ -1,4 +1,6 @@
 module.exports = {
-  root: true,
-  extends: ["itsrakesh"],
+  extends: [
+    "@itsrakesh/eslint-config/react",
+    "@itsrakesh/eslint-config/storybook",
+  ],
 };
