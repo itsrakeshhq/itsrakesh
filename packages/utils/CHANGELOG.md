@@ -1,5 +1,11 @@
 # @itsrakesh/utils
 
+## 1.2.0
+
+### Minor Changes
+
+- 2b0a89f: Added new components and maintainance updates.
+
 ## 1.1.0
 
 ### Minor Changes
