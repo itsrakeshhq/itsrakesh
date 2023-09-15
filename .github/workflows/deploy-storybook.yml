@@ -28,7 +28,7 @@ jobs:
           node-version: 18.x
 
       - name: Install Dependencies
-        run: pnpm i
+        run: cd packages/ui && pnpm i
 
       - name: Build
         run: pnpm sb:build
@@ -36,5 +36,5 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: packages/ui/storybook-static
