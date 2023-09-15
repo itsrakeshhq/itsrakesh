@@ -20,7 +20,7 @@
     "sb": {},
     "build-sb": {
       "outputs": ["storybook-static/**"],
-      "dependsOn": []
+      "dependsOn": ["^build"]
     }
   }
 }

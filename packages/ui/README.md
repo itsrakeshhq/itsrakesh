@@ -24,7 +24,7 @@ import { Button } from "@itsrakesh/ui";
 export default function App() {
   return (
     <div>
-      <Button>Click Me</Button>
+      <Button>Click Me!</Button>
     </div>
   );
 }
