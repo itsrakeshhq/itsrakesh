@@ -1,8 +1,37 @@
 {
   "name": "@itsrakesh/tsconfig",
   "version": "1.1.0",
+  "description": "A shared typescript configurations for itsrakesh projects.",
+  "keywords": [
+    "itsrakesh",
+    "tsconfig"
+  ],
+  "homepage": "https://github.com/itsrakeshhq/itsrakesh/tree/main/packages/tsconfig#readme",
+  "bugs": {
+    "url": "https://github.com/itsrakeshhq/itsrakesh/issues",
+    "email": "rakesh@itsrakesh.com"
+  },
   "license": "MIT",
-  "description": "A shared tsconfig.json for itsrakesh",
+  "author": {
+    "name": "Rakesh Potnuru",
+    "email": "rakesh@itsrakesh.com",
+    "url": "https://itsrakesh.com"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://github.com/sponsors/RakeshPotnuru"
+    },
+    {
+      "type": "individual",
+      "url": "https://ko-fi.com/itsrakesh"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsrakeshhq/itsrakesh.git",
+    "directory": "packages/tsconfig"
+  },
   "publishConfig": {
     "access": "public"
   }

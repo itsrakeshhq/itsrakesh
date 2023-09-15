@@ -1,8 +1,39 @@
 {
   "name": "@itsrakesh/eslint-config",
   "version": "1.1.0",
-  "main": "index.js",
+  "description": "A shared eslint configurations for itsrakesh projects.",
+  "keywords": [
+    "itsrakesh",
+    "eslint config",
+    "eslint config react",
+    "eslint config storybook"
+  ],
+  "homepage": "https://github.com/itsrakeshhq/itsrakesh/tree/main/packages/eslint-config#readme",
+  "bugs": {
+    "url": "https://github.com/itsrakeshhq/itsrakesh/issues",
+    "email": "rakesh@itsrakesh.com"
+  },
   "license": "MIT",
+  "author": {
+    "name": "Rakesh Potnuru",
+    "email": "rakesh@itsrakesh.com",
+    "url": "https://itsrakesh.com"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://github.com/sponsors/RakeshPotnuru"
+    },
+    {
+      "type": "individual",
+      "url": "https://ko-fi.com/itsrakesh"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsrakeshhq/itsrakesh.git",
+    "directory": "packages/eslint-config"
+  },
   "dependencies": {
     "eslint-config-next": "latest",
     "eslint-config-prettier": "^9.0.0",

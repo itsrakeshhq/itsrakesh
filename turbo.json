@@ -16,6 +16,11 @@
     },
     "clean": {
       "cache": false
+    },
+    "sb": {},
+    "build-sb": {
+      "outputs": ["storybook-static/**"],
+      "dependsOn": []
     }
   }
 }

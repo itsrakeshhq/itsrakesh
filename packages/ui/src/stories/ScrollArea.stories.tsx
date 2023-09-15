@@ -1,12 +1,9 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { ScrollArea } from "../";
+import { ScrollArea, Separator } from "../";
 
 const meta: Meta<typeof ScrollArea> = {
   component: ScrollArea,
-  parameters: {
-    layout: "centered",
-  },
 };
 
 export default meta;
@@ -27,6 +24,7 @@ export const Default: Story = {
             <div key={tag} className="text-sm">
               {tag}
             </div>
+            <Separator className="my-2" />
           </>
         ))}
       </div>

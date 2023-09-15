@@ -1,14 +1,45 @@
 {
   "name": "@itsrakesh/utils",
   "version": "1.1.0",
+  "description": "A collection of utility functions for itsrakesh frontend projects.",
+  "keywords": [
+    "itsrakesh",
+    "utilities",
+    "utils"
+  ],
+  "homepage": "https://github.com/itsrakeshhq/itsrakesh/tree/main/packages/utils#readme",
+  "bugs": {
+    "url": "https://github.com/itsrakeshhq/itsrakesh/issues",
+    "email": "rakesh@itsrakesh.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Rakesh Potnuru",
+    "email": "rakesh@itsrakesh.com",
+    "url": "https://itsrakesh.com"
+  },
+  "funding": [
+    {
+      "type": "individual",
+      "url": "https://github.com/sponsors/RakeshPotnuru"
+    },
+    {
+      "type": "individual",
+      "url": "https://ko-fi.com/itsrakesh"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsrakeshhq/itsrakesh.git",
+    "directory": "packages/utils"
+  },
+  "files": [
+    "dist/**"
+  ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
-  "license": "MIT",
-  "files": [
-    "dist/**"
-  ],
   "scripts": {
     "build": "tsup src/index.ts --format esm,cjs --dts --external react",
     "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external react",
@@ -16,16 +47,22 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "devDependencies": {
+    "@itsrakesh/eslint-config": "workspace:*",
     "@itsrakesh/tsconfig": "workspace:*",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "eslint": "^8.48.0",
-    "@itsrakesh/eslint-config": "workspace:*",
     "react": "^18.2.0",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
+  "peerDependencies": {
+    "react": "18.x"
+  },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "tailwind-merge": "^1.14.0"
   }
 }
