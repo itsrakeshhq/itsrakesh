@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.3.2
+
+### Patch Changes
+
+- c95947b: Fixed types issue
+
 ## 0.3.1
 
 ### Patch Changes
