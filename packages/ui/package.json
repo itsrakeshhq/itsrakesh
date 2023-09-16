@@ -39,7 +39,7 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "types": "./dist/index.d.ts",
+  "types": "./dist/index.d.mts",
   "exports": {
     ".": "./dist",
     "./globals.css": "./dist/index.css"
@@ -49,6 +49,7 @@
     "dev": "tsup --watch",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+    "check-types": "tsc --noEmit",
     "sb": "storybook dev -p 6006",
     "build-sb": "storybook build",
     "preview-sb": "serve storybook-static"
