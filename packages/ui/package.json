@@ -36,13 +36,17 @@
   "files": [
     "dist/**"
   ],
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "sideEffects": [
+    "**/*.css"
+  ],
   "types": "./dist/index.d.ts",
-  "sideEffects": false,
+  "exports": {
+    ".": "./dist",
+    "./globals.css": "./dist/index.css"
+  },
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts --external react",
-    "dev": "tsup src/index.ts --format esm,cjs --watch --dts --external react",
+    "build": "tsup",
+    "dev": "tsup --watch",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "sb": "storybook dev -p 6006",
