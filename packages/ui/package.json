@@ -39,9 +39,13 @@
   "sideEffects": [
     "**/*.css"
   ],
+  "main": "./dist/index.mjs",
   "types": "./dist/index.d.mts",
   "exports": {
-    ".": "./dist",
+    ".": {
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.mts"
+    },
     "./globals.css": "./dist/index.css"
   },
   "scripts": {
@@ -61,7 +65,6 @@
     "@hookform/resolvers": "^3.3.1",
     "@itsrakesh/eslint-config": "workspace:*",
     "@itsrakesh/tsconfig": "workspace:*",
-    "@itsrakesh/utils": "workspace:*",
     "@storybook/addon-essentials": "^7.4.0",
     "@storybook/addon-interactions": "^7.4.0",
     "@storybook/addon-links": "^7.4.0",
@@ -85,6 +88,7 @@
     "zod": "^3.22.2"
   },
   "dependencies": {
+    "@itsrakesh/utils": "workspace:*",
     "@radix-ui/react-alert-dialog": "^1.0.4",
     "@radix-ui/react-aspect-ratio": "^1.0.3",
     "@radix-ui/react-avatar": "^1.0.3",
