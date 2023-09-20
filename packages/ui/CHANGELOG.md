@@ -1,5 +1,13 @@
 # @itsrakesh/ui
 
+## 0.3.4
+
+### Patch Changes
+
+- 5e560ec: Added NextJs support and few fixes.
+- Updated dependencies [5e560ec]
+  - @itsrakesh/utils@1.2.1
+
 ## 0.3.3
 
 ### Patch Changes
