@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - packages/ui/**
+    paths-ignore:
+      - "**/*.md"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
