@@ -10,8 +10,7 @@
     "version-packages": "changeset version",
     "release": "turbo run build && changeset publish",
     "sb": "turbo run sb --filter=@itsrakesh/ui",
-    "sb:build": "turbo run build-sb --filter=@itsrakesh/ui",
-    "sb:preview": "turbo run preview-sb --filter=@itsrakesh/ui"
+    "sb:build": "turbo run build-sb --filter=@itsrakesh/ui"
   },
   "devDependencies": {
     "@changesets/cli": "^2.26.2",

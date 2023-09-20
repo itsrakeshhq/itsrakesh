@@ -6,7 +6,7 @@ on:
       - main
     paths:
       - "packages/ui/**"
-      - "!**/*.md"
+      - "!packages/ui/**/*.md"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 

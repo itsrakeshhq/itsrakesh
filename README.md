@@ -11,8 +11,10 @@ This Turborepo includes the following packages and applications:
 
 ### Useful Commands
 
-- `pnpm build` - Build all packages, including the Storybook site
-- `pnpm dev` - Run all packages locally and preview with Storybook
+- `pnpm build` - Build all packages
+- `pnpm dev` - Run all packages locally
 - `pnpm lint` - Lint all packages
 - `pnpm changeset` - Generate a changeset
 - `pnpm clean` - Clean up all `node_modules` and `dist` folders (runs each package's clean script)
+- `pnpm sb` - Start storybook dev server
+- `pnpm sb:build` - Build storybook site
