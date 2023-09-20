@@ -5,9 +5,8 @@ on:
     branches:
       - main
     paths:
-      - packages/ui/**
-    paths-ignore:
-      - "**/*.md"
+      - "packages/ui/**"
+      - "!**/*.md"
 
 concurrency: ${{ github.workflow }}-${{ github.ref }}
 
