@@ -1,5 +1,11 @@
 # @itsrakesh/utils
 
+## 1.2.1
+
+### Patch Changes
+
+- 5e560ec: Added NextJs support and few fixes.
+
 ## 1.2.0
 
 ### Minor Changes
