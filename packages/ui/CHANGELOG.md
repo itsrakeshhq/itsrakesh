@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.4.0
+
+### Minor Changes
+
+- e70442f: Added more variants to button and badge.
+
 ## 0.3.4
 
 ### Patch Changes
