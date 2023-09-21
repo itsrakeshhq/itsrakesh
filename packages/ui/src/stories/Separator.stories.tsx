@@ -12,10 +12,10 @@ type Story = StoryObj<typeof Separator>;
 
 export const Default: Story = {
   render: () => (
-    <div>
+    <div className="dark:text-foreground-dark">
       <div className="space-y-1">
         <h4 className="text-sm font-medium leading-none">Radix Primitives</h4>
-        <p className="text-sm text-muted-foreground">
+        <p className="text-sm text-muted-foreground dark:text-muted">
           An open-source UI component library.
         </p>
       </div>

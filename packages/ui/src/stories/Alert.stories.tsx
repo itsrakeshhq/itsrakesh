@@ -14,7 +14,7 @@ type Story = StoryObj<typeof Alert>;
 export const Default: Story = {
   render: (args) => (
     <Alert {...args}>
-      <RocketIcon className="h-4 w-4" />
+      <RocketIcon className="h-4 w-4 dark:text-foreground-dark" />
       <AlertTitle>Heads up!</AlertTitle>
       <AlertDescription>
         You can add components to your app using the cli.

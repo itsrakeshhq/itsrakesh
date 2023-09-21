@@ -16,7 +16,7 @@ const tags = Array.from({ length: 50 }).map(
 
 export const Default: Story = {
   render: () => (
-    <ScrollArea className="h-72 w-48 rounded-md border">
+    <ScrollArea className="h-72 w-48 rounded-md border dark:border-border-dark">
       <div className="p-4">
         <h4 className="mb-4 text-sm font-medium leading-none">Tags</h4>
         {tags.map((tag) => (
