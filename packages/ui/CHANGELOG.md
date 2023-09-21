@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.4.1
+
+### Patch Changes
+
+- 87c20f5: Added dark mode support
+
 ## 0.4.0
 
 ### Minor Changes
