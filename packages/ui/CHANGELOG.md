@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.5.0
+
+### Minor Changes
+
+- 957c881: Added new component and removed dark classes.
+
 ## 0.4.1
 
 ### Patch Changes
