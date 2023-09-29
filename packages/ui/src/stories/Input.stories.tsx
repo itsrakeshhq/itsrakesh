@@ -11,5 +11,8 @@ export default meta;
 type Story = StoryObj<typeof Input>;
 
 export const Default: Story = {
-  render: () => <Input type="email" placeholder="Email" />,
+  args: {
+    type: "email",
+    placeholder: "Email",
+  },
 };
