@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.6.0
+
+### Minor Changes
+
+- 5398925: Added new components: Card, Command, DropdownMenu, Popover, Table, Tabs and Textarea
+
 ## 0.5.0
 
 ### Minor Changes
