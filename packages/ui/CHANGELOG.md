@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.7.0
+
+### Minor Changes
+
+- 3ca2031: Added new component
+
 ## 0.6.0
 
 ### Minor Changes
