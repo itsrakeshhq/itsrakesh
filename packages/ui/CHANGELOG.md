@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.8.0
+
+### Minor Changes
+
+- cad5394: Added sheet component
+
 ## 0.7.0
 
 ### Minor Changes
