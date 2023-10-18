@@ -19,9 +19,9 @@ pnpm add @itsrakesh/ui
 - Update your `tailwind.config.ts` with these.
 
 ```json
-...
+//...
   content: [
-    ...,
+    //...,
     "./node_modules/@itsrakesh/ui/dist/**/*.{mjs,mts,jsx,tsx}",
   ]
   theme: {
@@ -102,7 +102,7 @@ pnpm add @itsrakesh/ui
     },
   },
   plugins: [require("tailwindcss-animate")],
-...
+//...
 ```
 
 - Copy this to your project css (e.g. `globals.css`) file.
@@ -182,6 +182,15 @@ pnpm add @itsrakesh/ui
 
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
+
+    --success: 116, 46%, 49%;
+    --success-foreground: 210 40% 98%;
+
+    --warning: 33, 100%, 56%;
+    --warning-foreground: 210 40% 98%;
+
+    --info: 216, 100%, 40%;
+    --info-foreground: 210 40% 98%;
 
     --ring: 216 34% 17%;
 
