@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.9.0
+
+### Minor Changes
+
+- ff0327c: Added new components: Calendar, Toggle
+
 ## 0.8.0
 
 ### Minor Changes
