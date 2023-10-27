@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.10.0
+
+### Minor Changes
+
+- cfa4392: Added new component: Accordion
+
 ## 0.9.0
 
 ### Minor Changes
