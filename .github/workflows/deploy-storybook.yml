@@ -1,13 +1,12 @@
 name: Deploy Storybook
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
       - "packages/ui/**"
-
-on: workflow_dispatch
 
 jobs:
   deploy:
