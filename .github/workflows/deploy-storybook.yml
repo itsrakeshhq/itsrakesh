@@ -8,18 +8,31 @@ on:
     paths:
       - "packages/ui/**"
 
+concurrency: ${{ github.workflow }}-${{ github.ref }}
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Install dependencies and build Storybook
-        run: |
-          npm install
-          npm run sb:build
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: Setup Node.js 18.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: Install Dependencies
+        run: pnpm i
+
+      - name: Build Storybook
+        run: pnpm sb:build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
