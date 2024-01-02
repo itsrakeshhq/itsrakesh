@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.11.1
+
+### Patch Changes
+
+- 0758197: Exported ToasterProps
+
 ## 0.11.0
 
 ### Minor Changes
