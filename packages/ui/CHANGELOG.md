@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.11.0
+
+### Minor Changes
+
+- 62b7692: Added resizable component and updated toast component
+
 ## 0.10.0
 
 ### Minor Changes
