@@ -18,6 +18,7 @@ export * from "./Label";
 export * from "./Menubar";
 export * from "./Popover";
 export * from "./RadioGroup";
+export * from "./Resizable";
 export * from "./ScrollArea";
 export * from "./Select";
 export * from "./Separator";

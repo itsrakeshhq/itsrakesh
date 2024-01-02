@@ -1,14 +1,14 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { useToast, Button, Toast, Toaster, ToastAction } from "../";
+import { Button, Toaster, toast } from "../components";
 
-const meta: Meta<typeof Toast> = {
-  component: Toast,
+const meta: Meta<typeof Toaster> = {
+  component: Toaster,
   decorators: [
     (Story) => (
       <>
         <Story />
-        <Toaster />
+        <Toaster richColors closeButton />
       </>
     ),
   ],
@@ -16,20 +16,15 @@ const meta: Meta<typeof Toast> = {
 
 export default meta;
 
-type Story = StoryObj<typeof Toast>;
+type Story = StoryObj<typeof Toaster>;
 
 export const Simple: Story = {
   render: () => {
-    const { toast } = useToast();
-
     return (
       <Button
         variant="outline"
         onClick={() => {
-          toast({
-            description: "Your message has been sent.",
-            duration: 5000,
-          });
+          toast("Event has been created.");
         }}
       >
         Show Toast
@@ -38,16 +33,13 @@ export const Simple: Story = {
   },
 };
 
-export const WithTitle: Story = {
+export const WithDescription: Story = {
   render: () => {
-    const { toast } = useToast();
-
     return (
       <Button
         variant="outline"
         onClick={() => {
-          toast({
-            title: "Uh oh! Something went wrong.",
+          toast("Uh oh! Something went wrong.", {
             description: "There was a problem with your request.",
           });
         }}
@@ -60,16 +52,16 @@ export const WithTitle: Story = {
 
 export const WithAction: Story = {
   render: () => {
-    const { toast } = useToast();
-
     return (
       <Button
         variant="outline"
         onClick={() => {
-          toast({
-            title: "Uh oh! Something went wrong.",
-            description: "There was a problem with your request.",
-            action: <ToastAction altText="Try again">Try again</ToastAction>,
+          toast("Event has been created", {
+            description: "Sunday, December 03, 2023 at 9:00 AM",
+            action: {
+              label: "Undo",
+              onClick: () => console.log("Undo"),
+            },
           });
         }}
       >
@@ -81,18 +73,11 @@ export const WithAction: Story = {
 
 export const Destructive: Story = {
   render: () => {
-    const { toast } = useToast();
-
     return (
       <Button
         variant="outline"
         onClick={() => {
-          toast({
-            variant: "destructive",
-            title: "Uh oh! Something went wrong.",
-            description: "There was a problem with your request.",
-            action: <ToastAction altText="Try again">Try again</ToastAction>,
-          });
+          toast.error("Event has not been created");
         }}
       >
         Show Toast
@@ -103,18 +88,11 @@ export const Destructive: Story = {
 
 export const Success: Story = {
   render: () => {
-    const { toast } = useToast();
-
     return (
       <Button
         variant="outline"
         onClick={() => {
-          toast({
-            variant: "success",
-            title: "Your message has been sent.",
-            description: "We'll get back to you as soon as we can.",
-            action: <ToastAction altText="Try again">Try again</ToastAction>,
-          });
+          toast.success("Event has been created");
         }}
       >
         Show Toast
@@ -125,18 +103,11 @@ export const Success: Story = {
 
 export const Warning: Story = {
   render: () => {
-    const { toast } = useToast();
-
     return (
       <Button
         variant="outline"
         onClick={() => {
-          toast({
-            variant: "warning",
-            title: "Your message has been sent.",
-            description: "We'll get back to you as soon as we can.",
-            action: <ToastAction altText="Try again">Try again</ToastAction>,
-          });
+          toast.warning("Event start time cannot be earlier than 8am");
         }}
       >
         Show Toast
@@ -147,18 +118,11 @@ export const Warning: Story = {
 
 export const Info: Story = {
   render: () => {
-    const { toast } = useToast();
-
     return (
       <Button
         variant="outline"
         onClick={() => {
-          toast({
-            variant: "info",
-            title: "Your message has been sent.",
-            description: "We'll get back to you as soon as we can.",
-            action: <ToastAction altText="Try again">Try again</ToastAction>,
-          });
+          toast.info("Be at the area 10 minutes before the event time");
         }}
       >
         Show Toast
