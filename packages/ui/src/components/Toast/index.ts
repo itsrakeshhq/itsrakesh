@@ -1,1 +1,1 @@
-export { Toaster, toast } from "./Toaster";
+export { Toaster, toast, type ToasterProps } from "./Toaster";
