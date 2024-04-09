@@ -2,7 +2,7 @@
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
     "build": {
-      "outputs": ["dist/**"],
+      "outputs": ["**/dist", "**/.next"],
       "dependsOn": ["^build"]
     },
     "test": {
@@ -16,6 +16,10 @@
     },
     "clean": {
       "cache": false
+    },
+    "nextra:build": {
+      "outputs": ["**/.next"],
+      "dependsOn": ["^build"]
     }
   }
 }
