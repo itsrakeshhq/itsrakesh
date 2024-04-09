@@ -5,8 +5,7 @@
   "keywords": [
     "itsrakesh",
     "eslint config",
-    "eslint config react",
-    "eslint config storybook"
+    "eslint config react"
   ],
   "homepage": "https://github.com/itsrakeshhq/itsrakesh/tree/main/packages/eslint-config#readme",
   "bugs": {
@@ -39,8 +38,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-config-turbo": "latest",
     "eslint-plugin-mdx": "^2.2.0",
-    "eslint-plugin-react": "7.33.2",
-    "eslint-plugin-storybook": "^0.6.13"
+    "eslint-plugin-react": "7.33.2"
   },
   "publishConfig": {
     "access": "public"

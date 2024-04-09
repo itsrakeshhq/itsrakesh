@@ -230,3 +230,8 @@ export default function App() {
 ## License
 
 Distributed under the MIT License. See [LICENSE.txt](https://github.com/itsrakeshhq/itsrakesh/tree/main/packages/ui/LICENSE) for more information.
+
+<!--
+Params - snake_case
+Variables and functions - camelCase
+>

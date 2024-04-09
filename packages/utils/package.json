@@ -63,6 +63,7 @@
     "access": "public"
   },
   "dependencies": {
+    "clsx": "^2.1.0",
     "tailwind-merge": "^1.14.0"
   }
 }
