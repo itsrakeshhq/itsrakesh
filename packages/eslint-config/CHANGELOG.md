@@ -1,5 +1,11 @@
 # @itsrakesh/eslint-config
 
+## 1.2.1
+
+### Patch Changes
+
+- bc3b878: Fixes
+
 ## 1.2.0
 
 ### Minor Changes
