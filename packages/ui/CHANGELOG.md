@@ -1,5 +1,13 @@
 # @itsrakesh/ui
 
+## 0.11.2
+
+### Patch Changes
+
+- bc3b878: Fixes
+- Updated dependencies [bc3b878]
+  - @itsrakesh/utils@1.2.2
+
 ## 0.11.1
 
 ### Patch Changes
