@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.12.0
+
+### Minor Changes
+
+- 7e02c68: Added Chart component and updated tooltip
+
 ## 0.11.2
 
 ### Patch Changes
