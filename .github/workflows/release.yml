@@ -11,22 +11,20 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    env:
-      NODE_OPTIONS: "--max_old_space_size=4096"
 
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
       - name: Setup Node.js 20
         uses: actions/setup-node@v3
         with:
           node-version: 20
-
-      - name: Setup Node.js 18.x
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18.x
 
       - name: Install Dependencies
         run: pnpm i
