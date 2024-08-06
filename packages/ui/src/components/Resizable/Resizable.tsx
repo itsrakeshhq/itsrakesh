@@ -1,5 +1,6 @@
 import { cn } from "@itsrakesh/utils";
 import { DragHandleDots2Icon } from "@radix-ui/react-icons";
+import * as React from "react";
 import * as ResizablePrimitive from "react-resizable-panels";
 
 const ResizablePanelGroup = ({
