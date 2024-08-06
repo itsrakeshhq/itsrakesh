@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.12.2
+
+### Patch Changes
+
+- 23d9c23: Fixed ReferenceError: React is not defined
+
 ## 0.12.1
 
 ### Patch Changes
