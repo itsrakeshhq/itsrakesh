@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.12.1
+
+### Patch Changes
+
+- 8748752: Update deps
+
 ## 0.12.0
 
 ### Minor Changes
