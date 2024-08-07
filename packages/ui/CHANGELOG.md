@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.12.3
+
+### Patch Changes
+
+- 417eabb: Exported type ChartConfig
+
 ## 0.12.2
 
 ### Patch Changes
