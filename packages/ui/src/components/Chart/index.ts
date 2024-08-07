@@ -5,4 +5,5 @@ export {
   ChartStyle,
   ChartTooltip,
   ChartTooltipContent,
+  type ChartConfig,
 } from "./Chart";
