@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.12.4
+
+### Patch Changes
+
+- dbf9368: Updated Chart component styling to fix border color in ChartTooltipContent
+
 ## 0.12.3
 
 ### Patch Changes
