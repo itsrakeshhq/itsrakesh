@@ -1,5 +1,11 @@
 # @itsrakesh/ui
 
+## 0.12.5
+
+### Patch Changes
+
+- b32fdea: Updated Select component
+
 ## 0.12.4
 
 ### Patch Changes
